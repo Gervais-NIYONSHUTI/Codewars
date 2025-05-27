@@ -1,0 +1,1 @@
+const getCount = str => str.match(/[iuoae]/gi) !== null ? str.match(/[iuoae]/gi).length : 0;
