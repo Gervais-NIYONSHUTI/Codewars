@@ -1,0 +1,1 @@
+const isPangram = string => 'abcdefghijklmnopqrstuvwxyz'.split('').every(val => string.toLowerCase().includes(val))
