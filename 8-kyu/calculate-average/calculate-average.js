@@ -1,0 +1,1 @@
+const findAverage = array => array.length !== 0 ? array.reduce((ac,cr) => ac+cr)/array.length : 0
