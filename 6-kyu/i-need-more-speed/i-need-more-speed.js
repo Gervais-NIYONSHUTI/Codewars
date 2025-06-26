@@ -1,0 +1,1 @@
+const reverse = arr => { for(let val in arr) arr.splice(val,0,arr.pop()) }
