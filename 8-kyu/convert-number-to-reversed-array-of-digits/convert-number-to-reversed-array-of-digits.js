@@ -1,0 +1,1 @@
+const digitize = n => `${n}`.split('').reverse().map(val => +val) 
