@@ -1,0 +1,1 @@
+var uniqueInOrder= iterable => typeof(iterable) === 'string' ? iterable.split('').filter((val, i) => val !== iterable[i - 1]) : iterable.filter((val, i) => val !== iterable[i - 1])
