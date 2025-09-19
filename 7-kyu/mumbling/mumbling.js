@@ -1,0 +1,1 @@
+const accum = s => s.split('').map((val, i) => val.toUpperCase() + val.toLowerCase().repeat(i)).join('-')
