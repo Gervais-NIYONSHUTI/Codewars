@@ -13,6 +13,12 @@ public class Kata {
       } else {
         return "Player 1 won";
       }
+    } else {
+      if(p2.equals("paper")){
+        return "Player 2 won";
+      } else {
+        return "Player 1 won";
+      }
     }
   }
 }
