@@ -11,12 +11,11 @@ public class Kata {
                             .mapToInt(Integer::parseInt)
                             .max();
     
-    if (min.isPresent() && max.isPresent()) {
+//     if (min.isPresent() && max.isPresent()) {
       return max.getAsInt() + " " + min.getAsInt();
-    } else {
-      // Handle the case where the input string is empty or invalid
-      return "";
-    }
+//     } else {
+//       return "";
+//     }
   }
 }
 ​
