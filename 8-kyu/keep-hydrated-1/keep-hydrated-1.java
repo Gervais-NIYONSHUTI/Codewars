@@ -1,6 +1,7 @@
+ 
 public class KeepHydrated  {
-  public static int liters(double time)  {
-    return int Math.floor(time * 0.5);
+  public static double liters(double time)  {
+    return Math.floor(time * 0.5);
   }
 }
 ​
