@@ -9,9 +9,9 @@ public class Kata {
       }
     } else if (p1.equals("paper")){
       if(p2.equals("rock")){
-        return "Player 2 won!";
-      } else {
         return "Player 1 won!";
+      } else {
+        return "Player 2 won!";
       }
     } else {
       if(p2.equals("paper")){
