@@ -9,7 +9,7 @@ public class GrassHopper {
     }
 ​
     public static int convertToCelsius(int temperature) {
-        int celsius = (tempertur - 32) + 5/9.0;
+        int celsius = (temp - 32) + 5/9.0;
         return temperature;
     }
 }
