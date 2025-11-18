@@ -1,0 +1,1 @@
+const groupByCommas = n => n.toLocaleString();
